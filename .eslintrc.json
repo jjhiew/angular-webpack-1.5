@@ -1,0 +1,35 @@
+{
+  "plugins": ["angular"],
+  "rules": {
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ]
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "angular/angular": true,
+    "angular/mocks": true,
+    "angular/protractor": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {}
+  },
+  "globals": {
+    "ON_TEST": true
+  }
+}
